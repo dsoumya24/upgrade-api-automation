@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-12-17T18:38:59 EST" name="Suite" finished-at="2020-12-17T18:39:07 EST" duration-ms="7934">
+    <groups>
+    </groups>
+    <test started-at="2020-12-17T18:38:59 EST" name="Test" finished-at="2020-12-17T18:39:07 EST" duration-ms="7934">
+      <class name="upgrade.InvalidUserTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:upgrade.InvalidUserTestCase@4da4253]" started-at="2020-12-17T18:38:59 EST" name="setUp" finished-at="2020-12-17T18:38:59 EST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResponseWithInValidPassword()[pri:1, instance:upgrade.InvalidUserTestCase@4da4253]" started-at="2020-12-17T18:38:59 EST" name="testResponseWithInValidPassword" finished-at="2020-12-17T18:39:02 EST" duration-ms="2919" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseWithInValidPassword -->
+        <test-method signature="testResponseWithInValidToken()[pri:1, instance:upgrade.InvalidUserTestCase@4da4253]" started-at="2020-12-17T18:39:02 EST" name="testResponseWithInValidToken" finished-at="2020-12-17T18:39:03 EST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseWithInValidToken -->
+        <test-method signature="testResponseWithInValidUser()[pri:1, instance:upgrade.InvalidUserTestCase@4da4253]" started-at="2020-12-17T18:39:03 EST" name="testResponseWithInValidUser" finished-at="2020-12-17T18:39:04 EST" duration-ms="912" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseWithInValidUser -->
+      </class> <!-- upgrade.InvalidUserTestCase -->
+      <class name="upgrade.ProductTypeTestCase">
+        <test-method is-config="true" signature="setup()[pri:0, instance:upgrade.ProductTypeTestCase@62e7f11d]" started-at="2020-12-17T18:38:59 EST" name="setup" finished-at="2020-12-17T18:38:59 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="validateProductType()[pri:0, instance:upgrade.ProductTypeTestCase@62e7f11d]" started-at="2020-12-17T18:39:05 EST" name="validateProductType" finished-at="2020-12-17T18:39:07 EST" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateProductType -->
+      </class> <!-- upgrade.ProductTypeTestCase -->
+      <class name="upgrade.ValidAndInvalidHeadersTestCase">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:upgrade.ValidAndInvalidHeadersTestCase@3972a855]" started-at="2020-12-17T18:38:59 EST" name="setUp" finished-at="2020-12-17T18:38:59 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testResponseWithValidHeaders()[pri:1, instance:upgrade.ValidAndInvalidHeadersTestCase@3972a855]" started-at="2020-12-17T18:39:04 EST" name="testResponseWithValidHeaders" finished-at="2020-12-17T18:39:05 EST" duration-ms="918" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseWithValidHeaders -->
+        <test-method signature="testResponseWithInvlidHeadersInvaildContent()[pri:2, instance:upgrade.ValidAndInvalidHeadersTestCase@3972a855]" started-at="2020-12-17T18:39:05 EST" name="testResponseWithInvlidHeadersInvaildContent" finished-at="2020-12-17T18:39:05 EST" duration-ms="190" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseWithInvlidHeadersInvaildContent -->
+        <test-method signature="testResponseWithInvlidHeadersInvaildCorrID()[pri:2, instance:upgrade.ValidAndInvalidHeadersTestCase@3972a855]" started-at="2020-12-17T18:39:05 EST" name="testResponseWithInvlidHeadersInvaildCorrID" finished-at="2020-12-17T18:39:05 EST" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseWithInvlidHeadersInvaildCorrID -->
+        <test-method signature="testResponseWithInvlidHeadersInvaildSourceCode()[pri:2, instance:upgrade.ValidAndInvalidHeadersTestCase@3972a855]" started-at="2020-12-17T18:39:05 EST" name="testResponseWithInvlidHeadersInvaildSourceCode" finished-at="2020-12-17T18:39:05 EST" duration-ms="214" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResponseWithInvlidHeadersInvaildSourceCode -->
+      </class> <!-- upgrade.ValidAndInvalidHeadersTestCase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
