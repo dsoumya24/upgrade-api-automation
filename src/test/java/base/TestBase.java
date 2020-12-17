@@ -1,11 +1,8 @@
 package base;
 import org.json.simple.JSONObject;
-import org.testng.annotations.Test;
-
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
 
-import static io.restassured.RestAssured.*;
 
 
 public class TestBase {
